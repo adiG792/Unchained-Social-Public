@@ -1,0 +1,7 @@
+node_modules
+start-all.command
+frontend/public/media/
+frontend/media
+.env
+.env.local
+.env.*.local

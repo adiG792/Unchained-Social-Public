@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ✅ Import only the weights you want */
+@import "@fontsource/inter/400.css";  /* Regular */
+@import "@fontsource/inter/700.css";  /* Bold */
+@import "@fontsource/poppins/400.css";
+@import "@fontsource/poppins/700.css";
+
+/* Your global styles */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #FAF9F6;
+  color: #2F2F2F;
+}

@@ -1,0 +1,28 @@
+{
+  "name": "hardhat-project",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "autoprefixer": "^10.4.21",
+    "concurrently": "^9.1.2",
+    "hardhat": "^2.25.0",
+    "ngrok": "^5.0.0-beta.2",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.10"
+  },
+  "dependencies": {
+    "@chainsafe/lodestar-cli": "^0.39.0",
+    "@openzeppelin/contracts": "^5.3.0",
+    "chokidar": "^4.0.3",
+    "dotenv": "^16.5.0",
+    "ipfs-http-client": "^60.0.1",
+    "next": "^15.3.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "scripts": {
+    "start-devchain": "node scripts/start-devchain.js",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  }
+}
